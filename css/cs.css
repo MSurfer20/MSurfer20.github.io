@@ -1,0 +1,212 @@
+.nav {
+  overflow: hidden;
+  background-color: black;
+  position: top;
+  display: block;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+}
+body {
+  overflow-x: hidden;
+}
+.nav-link:hover {
+  background-color: grey;
+  color: white;
+  opacity: 1;
+}
+/* .imag {
+  height: 400px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.ico a {
+  height: 5vw;
+  width: 5vw;
+  align-self: auto;
+}
+.ico a img {
+  height: 5vw;
+  width: 5vw;
+}
+.bg1 {
+  background-image: url(../img/blue-and-purple-cosmic-sky-956999.jpg);
+  background-size: cover;
+}
+.bg3 {
+  background-image: url(../img/defocused-image-of-lights-255379.jpg);
+  background-size: cover;
+}
+.bg2 {
+  background-image: url(../img/abstract-antique-backdrop-background-129731.jpg);
+  background-size: cover;
+}
+.title {
+  color: white;
+  font: bolder;
+  overflow: hidden;
+  background: none;
+  text-align: center;
+  font-size: 5vw;
+}
+.cirimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+  border-style: none;
+  align-content: center;
+}
+.normtext {
+  text-align: center;
+  color: whitesmoke;
+  font: bolder;
+  height: auto;
+  overflow: hidden;
+  background: none;
+  font-size: 2.5vw;
+}
+.normtextlft {
+  text-align: left;
+  color: whitesmoke;
+  font-size: 2.1vw;
+  font: bolder;
+  height: auto;
+  overflow: hidden;
+  background: none;
+}
+#butto {
+  position: fixed;
+  z-index: 20;
+  height: 3.4vw;
+  width: 3.4vw;
+  right: 10vw;
+  bottom: 10vh;
+  background-image: url(../img/kisspng-computer-icons-up-arrow-5acb08a0e1c0a2.8429385415232554569247.jpg);
+  background-size: 3.4vw 3.4vw;
+  display: none;
+  border-radius: 65%;
+  border: none;
+}
+table,
+th,
+td {
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
+}
+.butt {
+  height: 500vw;
+  width: 600vw;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  height: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.button {
+  background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 0.5vw 0.75vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  border-radius: 2px;
+}
+input[type="text"] {
+  width: 30%;
+  padding: 1vw 1.75px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 1vw;
+  height: max-content;
+}
+select {
+  width: 30%;
+  padding: 0.5vw 1.25vw;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2vw;
+  background-color: #f1f1f1;
+}
+.responsive {
+  width: 100%;
+}
+html {
+  font-size: 1rem;
+}
+.section {
+  width: 100vw;
+  height: 100vw;
+}
+.viscount {
+  color: orange;
+  text-align: center;
+  height: auto;
+  width: auto;
+  float: right;
+  padding-top: 60px;
+  border-radius: 10px;
+}
+#home-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#about-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-box {
+  margin-top: 50px;
+}
+.imagess {
+  background-image: url(../img/defocused-image-of-lights-255379.jpg);
+  background-size: cover;
+}
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+} */
+.img-fluid {
+  height: 40%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table {
+  font-size: 2vw;
+  padding: 0.45vw;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap.native@2.0.27/dist/bootstrap-native-v4.min.js"></script>
+
+    <link rel="stylesheet" href="../css/cs.css" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>
+      The World Of Suyash
+    </title>
+  </head>
+  <body class="bg3" onload="loadpage()">
+    <div class="nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarid">
+        <a class="navbar-brand" href="../index.html">Suyash</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./page2.html">Slideshow</a>
+            </li>
+            <li class="nav-item item">
+              <a
+                class="nav-link active"
+                href="./page3.html"
+                tabindex="-1"
+                aria-disabled="true"
+                >Contact Me</a
+              >
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="./page4.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >My Interests</a
+                >
+              </li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <br />
+    <br />
+    <div>
+      <h4 style="font-size: 1.8vw; padding-top:15px ;padding-left: 10px;padding-right: 15px;">
+        I would love to hear what you think about the skills that I have acquired over time, and how proficient you think I am in those skills
+      </h4>
+    </div>
+        <form id="lol" style="text-align: left;font-size: 1.2vw;">
+          Name: <input type="text" name="Name" id="name" style="padding-left: 2px;"><br><br>
+          Skill: <input type="text" name="skill" id="skil"><br><br>
+          Level: <select name="level" id="level" style="margin-left: 2px;">
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Proficient">Proficient</option>
+        </select>
+        Comments: <input type="text" name="comm" id="comm"><br>
+          </form>
+          <br>
+          <button onclick="genera()" style="margin-left: 5px;" class="button">
+            Submit
+        </button>
+        <br> <br>
+        <table class="table table-dark table-bordered" id="lmao" style="padding-left: 20px;padding-right: 20px;">
+          <thead>
+              <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Skill</th>
+                  <th scope="col">Level</th>
+                  <th scope="col">Comments</th>
+              </tr>
+          </thead>
+          <tbody></tbody>
+      </table>
+    </div>
+    <div class="ico" class="container" style="padding-top: 10vw;">
+      <h4 style="font-size: 1.8vw; padding-top:15px ;padding-left: 10px;padding-right: 15px;">
+
+      I love meeting new people. You can reach me out on various platforms by
+      clicking the links below. <br />
+    </h4>
+      <div>
+      <a href="https://github.com/MSurfer20" target="_blank">
+        <img
+          src="https://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png"
+        />
+      </a>
+      <a href="https://www.facebook.com/suyashvardhan.mathur.3" target="_blank">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"
+        />
+      </a>
+      <a href="https://www.quora.com/profile/Suyash-Mathur-2" target="_blank">
+        <img
+          src="https://images.vexels.com/media/users/3/137401/isolated/preview/00300d00be87848b87d820f2664bc7eb-quora-icon-logo-by-vexels.png"
+        />
+      </a>
+      <a href="https://www.instagram.com/mathur.suyash/" target="_blank">
+        <img
+          src="https://www.freepnglogos.com/uploads/instagram-logo-png-transparent-0.png"
+        />
+      </a>
+    </div>
+  </div>
+  </body class="bg3">
+  <button id="butto" onclick="topfun()" style="position:fixed;bottom: 10px;right:10px;"></button>
+  <script src="../js/script.js"></script>
+</html>
+
+
+
+
+
